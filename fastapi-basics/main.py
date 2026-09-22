@@ -2,7 +2,6 @@ from enum import Enum
 
 from fastapi import FastAPI
 
-
 # class ModelName(str, Enum):
 #     alexnet = "alexnet"
 #     resnet = "resnet"
@@ -10,6 +9,10 @@ from fastapi import FastAPI
 
 
 app = FastAPI() 
+
+
+
+
 
 
 # @app.get("/models/{model_name}")
