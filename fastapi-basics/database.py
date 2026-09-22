@@ -1,8 +1,10 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
+from config import settings
 
-DATABASE_URL = "postgresql://postgres:Sarthak%402403@localhost/placement_api"
+DATABASE_URL = settings.DATABASE_URL 
+
 
 engine = create_engine(DATABASE_URL)
 
